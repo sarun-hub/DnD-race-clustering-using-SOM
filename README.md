@@ -30,13 +30,15 @@ In this dataset, 10,000 datapoints (characters) are collected and features provi
 Note: There are more races in this game, but these are main races.
 
 ## Contents
-This notebook is divided into 6 parts.
-* [Setting up](#content1)
-* [Use SOM to cluster race](#content2)
-* [Result of actual race based on their statistics](#content3)
+***[Link to notebook](https://github.com/sarun-hub/DnD-race-clustering-using-SOM/blob/main/main_file.ipynb)***
+
+This report is divided into 6 parts.
+* [Setting up - in notebook](#content1)
+* [Use SOM to cluster race - in notebook](#content2)
+* [Result of actual race based on their statistics - in notebook](#content3)
 * [Discussion](#content4)
 * [Conclusion](#content5)
-* [Appendix](#content6)
+* [Appendix - in notebook](#content6)
 
 ### Setting up <a name="content1"></a>
 In this part, the package installation is done in the first code block.\
@@ -81,4 +83,6 @@ In my opinion, better method is to divide the data into a group of information f
     * scikit-learn_som is a easy tool to do som but it has less adjustment (don't have iteration, learning rate, and radius (neighbor influence))
 - Other stats clustering
     * try several features clustering illustration.
+
+
 
